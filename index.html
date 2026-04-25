@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Онлайн-практикум по разработке ИИ-агентов</title>
+  <meta name="description" content="За 4 часа с нуля соберите своего первого ИИ-агента: среда, навыки, автоматизация и командный микропроект.">
+  <meta property="og:title" content="За 4 часа с нуля соберите своего первого ИИ-агента">
+  <meta property="og:description" content="Онлайн-практикум для участников без технического бэкграунда.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/ai-visual.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&amp;display=swap&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержанию</a>
+
+  <header class="site-header" data-header>
+    <div class="nav-shell">
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-controls="main-menu" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav" id="main-menu" data-menu>
+        <a href="#results">Результат</a>
+        <a href="#program">Программа</a>
+        <a href="#format">Формат</a>
+        <a href="#ticket">Билет</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="header-cta">
+        <span data-event-line>27 мая · 10:00–14:00 · Онлайн</span>
+        <button class="btn btn-dark btn-small" type="button" data-modal-open>Купить билет</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-media" aria-hidden="true">
+        <img src="assets/ai-visual.png" alt="">
+      </div>
+      <div class="container hero-inner">
+        <a class="hero-logo" href="#top" aria-label="Мандрик, Казаков и роботы">
+          <img src="assets/logo.png" alt="" width="126" height="91">
+        </a>
+        <p class="eyebrow">Онлайн-практикум по разработке ИИ-агентов</p>
+        <h1>Вы соберете своего первого<br>ИИ-агента за 4 часа</h1>
+        <p class="lead">Подойдет даже если у вас нет технического бэкграунда: шаг за шагом вы создадите первые навыки для вашего агента и получите обратную связь от опытных экспертов.</p>
+        <div class="chips" aria-label="Ключевые параметры практикума">
+          <span>4 часа онлайн</span>
+          <span>Без технического бэкграунда</span>
+          <span>Результат в день участия</span>
+        </div>
+        <div class="hero-actions">
+          <button class="btn btn-dark" type="button" data-modal-open>Купить билет</button>
+          <a class="btn btn-ghost" href="#program">Посмотреть программу</a>
+        </div>
+        <p class="microcopy">Это не лекция про ИИ, а практика с понятным маршрутом<br>до работающего результата за один день.</p>
+      </div>
+    </section>
+
+    <section class="section" id="results">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Результат в день участия</p>
+          <h2>Не просто разберетесь, а соберете ИИ-агента своими руками</h2>
+          <p>На практикуме вы не будете бесконечно слушать теорию. Вы последовательно пройдете все ключевые шаги и к концу дня получите понятный, осязаемый результат.</p>
+        </div>
+        <div class="card-grid five">
+          <article class="card">
+            <span class="card-index">01</span>
+            <h3>Рабочая среда для ИИ-агентов</h3>
+            <p>Пошагово установите и настроите инструмент для работы с ИИ-агентами: Cursor, Qwen CLI или аналогичный вариант для старта.</p>
+          </article>
+          <article class="card">
+            <span class="card-index">02</span>
+            <h3>Первый текстовый навык</h3>
+            <p>Научитесь создавать навык, который превращает один документ в другой: конспект в тезисы, статью в пост, вопросы в тест.</p>
+          </article>
+          <article class="card">
+            <span class="card-index">03</span>
+            <h3>Навык со скриптом</h3>
+            <p>Освоите сценарий, где ИИ работает вместе со скриптом и помогает автоматизировать прикладные задачи.</p>
+          </article>
+          <article class="card">
+            <span class="card-index">04</span>
+            <h3>Командный микропроект</h3>
+            <p>Вместе с командой соберете рабочий прототип и покажете его на защите.</p>
+          </article>
+          <article class="card card-accent">
+            <span class="card-index">05</span>
+            <h3>⭐️ Понимание, как развиваться дальше</h3>
+            <p>Разберетесь в анатомии навыков и поймете, как самостоятельно усложнять решения после практикума.</p>
+          </article>
+        </div>
+        <p class="section-note section-note-lead"><span class="section-note-lead-icon" aria-hidden="true">✅</span><span>После практикума у вас останется не только понимание, но и первый результат, который можно развивать и применять в работе.</span></p>
+      </div>
+    </section>
+
+    <section class="section band" id="start">
+      <div class="container split">
+        <div>
+          <p class="eyebrow">Старт с нуля</p>
+          <h2>Этот практикум создан для участников без технического бэкграунда</h2>
+          <p>Вам не нужно быть программистом или разбираться в коде: мы проведем вас по понятному маршруту от первого шага до рабочего результата. За 4 часа вы соберете своего первого ИИ-агента и поймете, как продолжать самостоятельно.</p>
+        </div>
+        <div class="compare">
+          <div>
+            <h3>Что здесь будет</h3>
+            <ul class="check-list">
+              <li>Пошаговая установка и настройка среды</li>
+              <li>Короткие объяснения там, где они нужны</li>
+              <li>Работа руками, а не бесконечные слайды</li>
+              <li>Командная поддержка и взаимопомощь</li>
+              <li>Защита результата в конце</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Чего здесь не будет</h3>
+            <ul class="cross-list">
+              <li>Перегрузки сложной терминологией</li>
+              <li>Длинной теории без практики</li>
+              <li>Ощущения, что нужно уже все знать заранее</li>
+              <li>Одиночной борьбы с установкой и настройкой</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="audience">
+      <div class="container">
+        <div class="section-heading narrow">
+          <p class="eyebrow">Кому подойдет</p>
+          <h2>Практикум для тех, кто хочет войти в тему через действие</h2>
+          <p>Формат особенно полезен тем, кто хочет освоить работу с ИИ-агентами без тяжелого технического входа и сразу увидеть, как это применять в реальных задачах.</p>
+        </div>
+        <div class="list-grid">
+          <article>
+            <h3>Если вы хотите войти в тему ИИ-агентов через практику</h3>
+            <p>Без длинной подготовки, бесконечных видео и ощущения, что сначала нужно изучить все.</p>
+          </article>
+          <article>
+            <h3>Если вы работаете с документами, файлами, контентом или управляете людьми.</h3>
+            <p>Ищете способ быстрее перерабатывать тексты, автоматизировать рутину и собирать полезные решения для работы.</p>
+          </article>
+          <article>
+            <h3>Если вы хотите попробовать инструменты без глубокого технического погружения</h3>
+            <p>Чтобы понять, как это работает на деле, а не оставаться на уровне общих разговоров про ИИ.</p>
+          </article>
+          <article>
+            <h3>Если вам нужен первый рабочий кейс</h3>
+            <p>Чтобы не просто интересоваться темой, а выйти с конкретным навыком и ИИ-агентом.</p>
+          </article>
+        </div>
+        <p class="section-note section-note-lead"><span class="section-note-lead-icon" aria-hidden="true">✅</span><span>Подходит управленцам, специалистам по продажам, маркетингу, HR, финансам — всем, кто занимается интеллектуальной работой.</span></p>
+      </div>
+    </section>
+
+    <section class="section band" id="practice">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Что будет внутри</p>
+          <h2>4 ключевых блока, из которых складывается ваш результат</h2>
+        </div>
+        <div class="card-grid four">
+          <article class="card">
+            <span class="card-index">01</span>
+            <h3>Инструменты для запуска ИИ-агентов</h3>
+            <p>Разберемся, чем отличаются Cursor, Qwen CLI, Anti-Gravity и похожие решения, и выберем понятный вариант для старта.</p>
+          </article>
+          <article class="card">
+            <span class="card-index">02</span>
+            <h3>Анатомия навыков</h3>
+            <p>Поймете, как ИИ обрабатывает запросы, из чего состоит навык и как превращать удачный промпт в повторяемое решение.</p>
+          </article>
+          <article class="card">
+            <span class="card-index">03</span>
+            <h3>Скрипты для автоматизации</h3>
+            <p>Увидите, как ИИ можно связать со скриптом: конвертировать файлы, готовить PDF, презентации или форматы для LMS.</p>
+          </article>
+          <article class="card">
+            <span class="card-index">04</span>
+            <h3>Командная разработка и защита</h3>
+            <p>Вместе с командой доведете идею до прототипа, подготовите короткую демонстрацию и покажете результат.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="program">
+      <div class="container">
+        <div class="section-heading narrow">
+          <p class="eyebrow">Программа</p>
+          <h2>4 часа практики до создания вашего ИИ-агента</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <time>(9:00-10:00)</time>
+            <div>
+              <h3>⚠️ Час настройки для "нетехнарей" (опционально)</h3>
+              <p>Если вы никогда не ставили агентские системы себе на компьютер, боитесь запутаться, нужен ли VPN, будет ли все работать именно на вашем компьютере — этот час для вас.</p>
+              <p>Если вы опытный и сможете поставить все сами — можно пропустить этот час.</p>
+              <ul>
+                <li>Пошаговая установка выбранного решения</li>
+                <li>Помощь наших специалистов в установке, если это потребуется</li>
+              </ul>
+              <strong>Результат: у вас установлен Cursor, все работает технически и готово к практикуму.</strong>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <time>10:00–10:50</time>
+            <div>
+              <h3>Введение в практикум</h3>
+              <p>Разберемся, как устроен практикум, как будет организована работа в микрогруппах и какой инструмент лучше выбрать новичку.</p>
+              <ul>
+                <li>Знакомство с форматом и целями практикума</li>
+                <li>Краткий обзор инструментов для старта</li>
+                <li>Финальная проверка работы рабочей среды в командах</li>
+              </ul>
+              <strong>Результат: вы понимаете, как будет устроена работа, и готовы начать делать своего первого ИИ-агента.</strong>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <time>10:50–11:45</time>
+            <div>
+              <h3>Первый навык: текстовая трансформация</h3>
+              <p>Разберемся, как устроены навыки, и сразу соберем первый рабочий вариант для преобразования одного текста в другой.</p>
+              <ul>
+                <li>Анатомия навыков</li>
+                <li>Структура промпта для трансформации документов</li>
+                <li>Создание первого навыка</li>
+                <li>Тестирование на разных типах контента</li>
+              </ul>
+              <strong>Результат: готовый текстовый навык для повторного использования.</strong>
+            </div>
+          </article>
+          <article class="timeline-break">
+            <span><span class="timeline-break-icon" aria-hidden="true">☕</span> Перерыв 15 минут</span>
+          </article>
+          <article class="timeline-item">
+            <time>12:00–13:00</time>
+            <div>
+              <h3>Сложный навык со скриптом</h3>
+              <p>Перейдем к следующему уровню: разберемся, что делать, когда одного текста недостаточно и нужен запуск скрипта.</p>
+              <ul>
+                <li>Когда нужен скрипт</li>
+                <li>Простые прикладные сценарии для не-программистов</li>
+                <li>Markdown в PDF, текст в презентацию или вопросы в LMS</li>
+                <li>Совместная работа в командах</li>
+              </ul>
+              <strong>Результат: работающий навык со скриптом.</strong>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <time>13:00–14:00</time>
+            <div>
+              <h3>Подготовка и защита микропроектов</h3>
+              <p>Команды дорабатывают решение до законченного микропроекта, готовят короткую демонстрацию и показывают, что получилось.</p>
+              <ul>
+                <li>Доработка навыка или скрипта</li>
+                <li>Распределение ролей внутри команды</li>
+                <li>Подготовка короткой презентации</li>
+                <li>Защита проекта и обратная связь</li>
+              </ul>
+              <strong>Результат: первый микропроект, который можно развивать дальше.</strong>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band" id="tasks">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">После практикума</p>
+          <h2>Не абстрактные кейсы из будущего, а задачи, с которыми можно работать сразу</h2>
+          <p>Уже после практикума вы сможете использовать этот подход в типовых рабочих сценариях, связанных с управлением, переговорами, текстами, контентом и внутренними процессами.</p>
+        </div>
+        <div class="task-grid">
+          <article><h3>Управленческий ИИ-ассистент</h3><p>Собирает апдейты из задач, встреч и переписок в понятную картину: что буксует, кто владелец, где нужен управленческий сигнал.</p></article>
+          <article><h3>Подготовка к сложным переговорам</h3><p>Готовит досье на контрагента, карту интересов сторон, аргументы, возможные возражения и сценарии ответа на неудобные вопросы.</p></article>
+          <article><h3>Презентация для принятия решения</h3><p>Превращает данные, заметки и черновые идеи в структуру презентации: логика истории, ключевые слайды, тезисы спикера и визуальные акценты.</p></article>
+          <article><h3>Отчет для руководства без ручной сборки</h3><p>Собирает из таблиц, комментариев и статусов короткий executive summary с отклонениями, рисками, причинами и предложенными действиями.</p></article>
+          <article><h3>HR-агент для подбора кандидатов</h3><p>Сравнивает резюме с профилем роли, объясняет скоринг кандидатов, подсвечивает красные флаги и готовит вопросы для интервью.</p></article>
+          <article><h3>Ассистент HR-директора по людям и командам</h3><p>Помогает анализировать результаты опросов, обратную связь и перформанс-данные, чтобы находить зоны риска, выгорание и точки роста команд.</p></article>
+          <article><h3>Автоматизация управленческой рутины</h3><p>Берет на себя повторяющиеся операции: протоколы встреч, постановку задач, контроль дедлайнов, напоминания и подготовку регулярных сводок.</p></article>
+          <article><h3>Контент-фабрика для внутренних коммуникаций</h3><p>Помогает быстро готовить посты, письма, инструкции, анонсы, FAQ и обучающие материалы в нужном стиле и под разные аудитории.</p></article>
+          <article class="task-feature"><h3>⭐️ Ваш собственный кейс</h3><p>Вы сами можете выбрать ту рутину, которую захотите автоматизировать с помощью ИИ-агента.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="format">
+      <div class="container split split-reverse">
+        <div class="format-visual" aria-hidden="true">
+          <img src="assets/robots-team.png" alt="">
+        </div>
+        <div>
+          <p class="eyebrow">Формат</p>
+          <h2>Вас не оставят один на один с новой темой</h2>
+          <p>Общий поток может быть большим, но основной опыт устроен через микрогруппы по 5–7 человек. Так проще задавать вопросы, пробовать решения, сверяться с другими участниками и быстрее проходить сложные моменты.</p>
+          <ul class="check-list columns">
+            <li>Проще пройти установку и первые шаги</li>
+            <li>Легче тестировать результат на практике</li>
+            <li>Меньше страха, что вы отстаете</li>
+            <li>Больше шансов дойти до готового результата</li>
+            <li>Больше идей за счет обмена внутри команды</li>
+          </ul>
+          <p class="section-note left">Даже если что-то не получится с первого раза, вы не выпадаете из процесса: можно двигаться дальше с командой, опираться на тренеров и видеть решения других участников.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band" id="mentor">
+      <div class="container mentor">
+        <div class="mentor-photo">
+          <img src="assets/person-a.png" alt="Владимир Казаков">
+        </div>
+        <div>
+          <p class="eyebrow">Кто ведет практикум</p>
+          <h2>Владимир Казаков</h2>
+          <p class="mentor-role">Сооснователь "Мандрик, Казаков и роботы"</p>
+          <ul class="mentor-list">
+            <li>Эксперт по ИИ и обучению взрослых, 16 лет в отрасли</li>
+            <li>Реализовал обучение по ИИ в ЦБ РФ, ВТБ, Газпромбанке, МВидео, Самолете и еще десятках компаний.</li>
+            <li>Со-основатель сообщества Digital Learning</li>
+            <li>Экс-директор по образовательным продуктам в МТС</li>
+            <li>Построил системы обучения в таких компаниях как Mary Kay, Корпоративный университет Сбербанка, Raiffeisen Bank.</li>
+            <li>Сертифицированный PSPO (professional scrum product owner)</li>
+            <li>Спикер, ментор</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section clients" id="clients">
+      <div class="container">
+        <div class="section-heading narrow">
+          <h2>Успешно обучили 15 000+ сотрудников крупных компаний</h2>
+        </div>
+        <div class="client-logo-grid" aria-hidden="true">
+          <div class="client-logo-card"><img src="assets/client-logos/client-01.png" alt="" width="120" height="43" loading="lazy" decoding="async"></div>
+          <div class="client-logo-card"><img src="assets/client-logos/client-02.png" alt="" width="219" height="43" loading="lazy" decoding="async"></div>
+          <div class="client-logo-card"><img src="assets/client-logos/client-03.png" alt="" width="203" height="43" loading="lazy" decoding="async"></div>
+          <div class="client-logo-card"><img src="assets/client-logos/client-04.png" alt="" width="172" height="43" loading="lazy" decoding="async"></div>
+          <div class="client-logo-card"><img src="assets/client-logos/client-05.png" alt="" width="43" height="43" loading="lazy" decoding="async"></div>
+          <div class="client-logo-card"><img src="assets/client-logos/client-06.png" alt="" width="361" height="43" loading="lazy" decoding="async"></div>
+          <div class="client-logo-card"><img src="assets/client-logos/client-07.png" alt="" width="258" height="43" loading="lazy" decoding="async"></div>
+          <div class="client-logo-card"><img src="assets/client-logos/client-08.png" alt="" width="213" height="43" loading="lazy" decoding="async"></div>
+          <div class="client-logo-card"><img src="assets/client-logos/client-09.png" alt="" width="47" height="43" loading="lazy" decoding="async"></div>
+          <div class="client-logo-card"><img src="assets/client-logos/client-10.png" alt="" width="167" height="43" loading="lazy" decoding="async"></div>
+          <div class="client-logo-card"><img src="assets/client-logos/client-11.png" alt="" width="135" height="43" loading="lazy" decoding="async"></div>
+          <div class="client-logo-card"><img src="assets/client-logos/client-12.png" alt="" width="174" height="43" loading="lazy" decoding="async"></div>
+          <div class="client-logo-card"><img src="assets/client-logos/client-13.png" alt="" width="43" height="43" loading="lazy" decoding="async"></div>
+          <div class="client-logo-card"><img src="assets/client-logos/client-14.png" alt="" width="141" height="43" loading="lazy" decoding="async"></div>
+          <div class="client-logo-card"><img src="assets/client-logos/client-15.png" alt="" width="121" height="43" loading="lazy" decoding="async"></div>
+          <div class="client-logo-card"><img src="assets/client-logos/client-16.png" alt="" width="207" height="43" loading="lazy" decoding="async"></div>
+          <div class="client-logo-card"><img src="assets/client-logos/client-17.png" alt="" width="287" height="43" loading="lazy" decoding="async"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-heading narrow">
+          <p class="eyebrow">Отзывы</p>
+          <h2>Отзывы с прошлого практикума</h2>
+        </div>
+        <div class="testimonial-grid">
+          <blockquote class="testimonial-card">
+            <p>Очень понравилось наполнение курса, его структура и логичность. Владимир как всегда объясняет сложное простыми словами.</p>
+          </blockquote>
+          <blockquote class="testimonial-card">
+            <p>Мария очень хвалит обучение, говорит, что очень полезно и многообещающе. Подскажите, пожалуйста, может быть, есть запись? Я бы тоже очень хотела посмотреть.</p>
+          </blockquote>
+          <blockquote class="testimonial-card">
+            <p>Благодарю вас за возможность поучаствовать в вебинаре, было полезно. На вебинар также звала одного из своих руководителей, которые обычно подбирают спикеров. Ведущий понравился, есть вероятность, что когда мы будем планировать какие-либо обучения в данной сфере, то обратимся.</p>
+          </blockquote>
+          <blockquote class="testimonial-card">
+            <p>В целом очень актуально, что мы послушали именно про агентов, так как промптинга и в целом преподаем сами. Понимаем, что тема сложная для обучения вдвойне. Пришли к мнению, что у вас спикер со стальными нервами. Он так спокойно всем помогал установить все 👍</p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="takeaways">
+      <div class="container">
+        <div class="section-heading narrow">
+          <p class="eyebrow">С чем уйдете</p>
+          <h2>К концу дня у вас будет не просто вдохновение, а конкретный результат</h2>
+          <p>Даже если сейчас вы только присматриваетесь к теме ИИ-агентов и навыков, после практикума у вас уже будет база, на которую можно опираться дальше.</p>
+        </div>
+        <div class="outcome-list">
+          <span>Установленная и настроенная среда для работы с ИИ-агентами</span>
+          <span>Первый текстовый навык для преобразования документов</span>
+          <span>Второй навык со скриптом для автоматизации задачи</span>
+          <span>Опыт командной разработки в безопасном формате</span>
+          <span>Готовый микропроект, который можно дорабатывать</span>
+          <span>Понимание, куда двигаться дальше самостоятельно</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container cta-inner">
+        <div>
+          <p class="eyebrow">Готовы пройти этот путь?</p>
+          <h2>Соберите вашего первого<br>ИИ-агента за 4 часа</h2>
+          <p>Без технического бэкграунда и долгой подготовки.</p>
+        </div>
+        <button class="btn btn-light" type="button" data-modal-open>Купить билет</button>
+      </div>
+    </section>
+
+    <section class="section" id="ticket">
+      <div class="container ticket-layout">
+        <div class="ticket-card">
+          <p class="eyebrow">Билет</p>
+          <h2>Забронируйте место на практикуме</h2>
+          <p>За один день вы установите среду, создадите 2 навыка для ИИ, поработаете в команде и защитите свой первый микропроект.</p>
+          <div class="price-row">
+            <div>
+              <span>Дата и время</span>
+              <strong data-event-line>27 мая · 10:00–14:00 · Онлайн</strong>
+            </div>
+            <div class="price-options">
+              <span>Стоимость</span>
+              <div class="price-option">
+                <span>Оплата от физлица</span>
+                <strong>4 950 руб.</strong>
+              </div>
+              <div class="price-option">
+                <span>Оплата от компании</span>
+                <strong>14 950 руб.</strong>
+              </div>
+            </div>
+          </div>
+          <h3>В билет входит</h3>
+          <ul class="check-list">
+            <li>Участие в 4-часовом онлайн-практикуме</li>
+            <li>Пошаговая установка и настройка среды</li>
+            <li>Создание первого текстового навыка</li>
+            <li>Создание навыка со скриптом</li>
+            <li>Работа в команде 5–7 человек</li>
+            <li>Защита микропроекта и обратная связь</li>
+            <li>Запись практикума</li>
+          </ul>
+          <p class="ticket-footnote">После отправки заявки вы резервируете участие в практикуме и получаете место в потоке.</p>
+        </div>
+        <div class="form-panel">
+          <h3>Заявка на билет</h3>
+          <p>Оставьте контакты, и мы подтвердим бронь.</p>
+          <form class="lead-form" data-form-id="ticket-inline" novalidate>
+            <label class="form-hp" aria-hidden="true">Сайт<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+            <div class="form-grid">
+              <label>Ваше ФИО<input type="text" name="name" autocomplete="name" required></label>
+              <label>Телефон<input type="tel" name="phone" autocomplete="tel" placeholder="+7 (000) 000-00-00" required></label>
+              <label>Компания<input type="text" name="company" autocomplete="organization"></label>
+              <label>Email<input type="email" name="email" autocomplete="email"></label>
+              <label>Telegram<input type="text" name="telegram" placeholder="@username"></label>
+              <label>Промо-код<input type="text" name="promo_code" placeholder="Если есть" autocomplete="off"></label>
+              <fieldset class="form-segment wide">
+                <legend>Тип оплаты</legend>
+                <label><input type="radio" name="comment" value="Оплата от физлица" checked><span>Оплата от физлица</span></label>
+                <label><input type="radio" name="comment" value="Оплата от компании"><span>Оплата от компании</span></label>
+              </fieldset>
+            </div>
+            <label class="checkbox"><input type="checkbox" name="subscribe_cases" value="yes" checked> <span>Подписаться на получение кейсов внедрения ИИ</span></label>
+            <label class="checkbox"><input type="checkbox" name="consent" value="yes" required> <span>Согласен с <a href="https://mkrobots.ru/privacy" target="_blank" rel="noreferrer">политикой конфиденциальности</a></span></label>
+            <button class="btn btn-dark submit-btn" type="submit">Отправить заявку</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band" id="faq">
+      <div class="container faq-layout">
+        <div>
+          <p class="eyebrow">FAQ</p>
+          <h2>Частые вопросы</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Подойдет ли мне практикум, если я никогда не программировал(а)?</summary>
+            <p>Да. Практикум специально рассчитан на участников без технического бэкграунда. Весь путь построен так, чтобы вы могли войти в тему через практику и понятные шаги.</p>
+          </details>
+          <details>
+            <summary>Нужно ли заранее что-то устанавливать?</summary>
+            <p>Нет. Установка и первичная настройка среды входят в программу практикума. Первый час как раз посвящен тому, чтобы все запустить вместе и проверить в работе.</p>
+          </details>
+          <details>
+            <summary>Что понадобится для участия?</summary>
+            <p>Ноутбук или компьютер, стабильный интернет и готовность работать руками вместе с ведущими и командой.</p>
+          </details>
+          <details>
+            <summary>Будет ли много теории?</summary>
+            <p>Нет. Теория дается короткими блоками и только там, где она помогает сразу перейти к практике. Основной акцент — на действиях, тестировании и результате.</p>
+          </details>
+          <details>
+            <summary>Что, если у меня что-то не получится?</summary>
+            <p>Формат построен так, чтобы вы не оставались один на один с проблемой. Можно опираться на тренеров, ассистентов и свою команду.</p>
+          </details>
+          <details>
+            <summary>Смогу ли я участвовать, если приду один / одна?</summary>
+            <p>Да. Работа строится в микрокомандах, которые помогают участникам двигаться быстрее и увереннее.</p>
+          </details>
+          <details>
+            <summary>Будет ли на практикуме код?</summary>
+            <p>Да, но в прикладном и понятном формате. Смысл не в том, чтобы сделать из вас разработчика за один день, а в том, чтобы показать запуск простых и полезных решений вместе с ИИ.</p>
+          </details>
+          <details>
+            <summary>Что будет итогом практикума?</summary>
+            <p>К концу дня у вас будет установленная среда, 2 созданных навыка, опыт командной разработки и готовый микропроект.</p>
+          </details>
+          <details>
+            <summary>Смогу ли я применять это в работе после практикума?</summary>
+            <p>Да. Практикум построен вокруг прикладных задач: трансформация документов, генерация контента, экспорт в PDF, подготовка материалов для LMS.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="container final-inner">
+        <p class="eyebrow">Пора действовать!</p>
+        <h2>Начните работать с ИИ-агентами уже сейчас. Это проще, чем вы думаете.</h2>
+        <p>Вместо долгих попыток разобраться в одиночку вы пройдете понятный маршрут вместе с ведущими и командой: установите среду, создадите 2 навыка и соберете первый микропроект.</p>
+        <button class="btn btn-light" type="button" data-modal-open>Купить билет</button>
+        <span data-event-line>27 мая · Онлайн · 10:00–14:00</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>ИП Казаков Владимир Михайлович · ИНН 501709673192 · ОГРНИП 325508100182169</p>
+        <p><a href="mailto:Hello@MKROBOTS.ru">Hello@MKROBOTS.ru</a> · <a href="https://mkrobots.ru/privacy" target="_blank" rel="noreferrer">Политика конфиденциальности</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true" data-modal>
+    <div class="modal-backdrop" data-modal-close></div>
+    <div class="modal-panel" role="document">
+      <button class="modal-close" type="button" aria-label="Закрыть" data-modal-close></button>
+      <img class="modal-visual" src="assets/modal-payment-robot.png" alt="">
+      <div class="modal-content">
+        <h2 id="modal-title">Забронировать билет</h2>
+        <p>Оставьте контакты, и мы подтвердим участие в практикуме.</p>
+        <form class="lead-form" data-form-id="ticket-modal" novalidate>
+          <label class="form-hp" aria-hidden="true">Сайт<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+          <div class="form-grid">
+            <label>Ваше ФИО<input type="text" name="name" autocomplete="name" required></label>
+            <label>Телефон<input type="tel" name="phone" autocomplete="tel" placeholder="+7 (000) 000-00-00" required></label>
+            <label>Компания<input type="text" name="company" autocomplete="organization"></label>
+            <label>Email<input type="email" name="email" autocomplete="email"></label>
+            <label>Telegram<input type="text" name="telegram" placeholder="@username"></label>
+            <label>Промо-код<input type="text" name="promo_code" placeholder="Если есть" autocomplete="off"></label>
+            <fieldset class="form-segment wide">
+              <legend>Тип оплаты</legend>
+              <label><input type="radio" name="comment" value="Оплата от физлица" checked><span>Оплата от физлица</span></label>
+              <label><input type="radio" name="comment" value="Оплата от компании"><span>Оплата от компании</span></label>
+            </fieldset>
+            <div class="modal-price-note wide" aria-label="Стоимость участия">
+              <div><span>Оплата от физлица</span><strong>4 950 руб.</strong></div>
+              <div><span>Оплата от компании</span><strong>14 950 руб.</strong></div>
+            </div>
+          </div>
+          <label class="checkbox"><input type="checkbox" name="subscribe_cases" value="yes" checked> <span>Подписаться на получение кейсов внедрения ИИ</span></label>
+          <label class="checkbox"><input type="checkbox" name="consent" value="yes" required> <span>Согласен с <a href="https://mkrobots.ru/privacy" target="_blank" rel="noreferrer">политикой конфиденциальности</a></span></label>
+          <button class="btn btn-dark submit-btn" type="submit">Отправить заявку</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
